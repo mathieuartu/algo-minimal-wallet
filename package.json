@@ -24,6 +24,9 @@
         "url": "https://github.com/mathieuartu/algo-minimal-wallet/issues"
     },
     "keywords": [
+        "algorand",
+        "wallet",
+        "minimal",
         "package"
     ],
     "main": "./dist/index.umd.js",
