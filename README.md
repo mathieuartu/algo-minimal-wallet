@@ -34,8 +34,8 @@ const amw = new AlgoMinimalWallet({
 (async () => {
     const balances = await amw.getBalances()
     // balances = { ALGO: 12.3, USDC: 140, ... }
-	const { txId: algoSendTransactionId } = await amw.sendAlgo({ to: 'RECIPIENT_ADDRESS', amount: 10 })
-	const { txId: asaSendTransactionId } = await amw.sendAsa({ to: 'RECIPIENT_ADDRESS', amount: 100, assetId: 3301 })
+    const { txId: algoSendTransactionId } = await amw.sendAlgo({ to: 'RECIPIENT_ADDRESS', amount: 10 })
+    const { txId: asaSendTransactionId } = await amw.sendAsa({ to: 'RECIPIENT_ADDRESS', amount: 100, assetId: 3301 })
 })()
 ```
 
