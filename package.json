@@ -1,6 +1,6 @@
 {
     "name": "algo-minimal-wallet",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "scripts": {
         "build": "tsc && vite build",
         "format": "prettier ./src --write",
